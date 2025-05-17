@@ -1,7 +1,12 @@
+'use client'
+import { Menu, X } from "lucide-react";
 import Image from "next/image"
 import Link from "next/link"
+import { useState } from "react"
 
 export default function Header() {
+    const [isOpen, setOpen] = useState(false);
+
     return (
         <header className="bg-white shadow-sm sticky top-0 left-0 z-99">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
@@ -17,10 +22,8 @@ export default function Header() {
                 <Link href="/contacts" className="text-gray-600 hover:text-green-700 font-medium">Contact</Link>
             </nav>
             <div className="lg:hidden">
-                <button className="text-gray-600 focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button className="text-gray-600 focus:outline-none" onClick={() => setOpen(!isOpen)}>
+                    {isOpen ? <X size={28} /> : <Menu size={28} />}
                 </button>
             </div>
             <div className="hidden lg:block">
@@ -29,6 +32,18 @@ export default function Header() {
                 </button>
             </div>
         </div>
+
+        {
+            isOpen && 
+
+            <nav className="flex flex-col lg:hidden items-center text-lg space-y-4 pb-4">
+                <Link href="/" className="text-gray-600 hover:text-green-700 font-medium">Home</Link>
+                <Link href="/announcement" className="text-gray-600 hover:text-green-700 font-medium">Announcements</Link>
+                <Link href="/about" className="text-gray-600 hover:text-green-700 font-medium">About Us</Link>
+                <Link href="/testimonials" className="text-gray-600 hover:text-green-700 font-medium">Testimonials</Link>
+                <Link href="/contacts" className="text-gray-600 hover:text-green-700 font-medium">Contact</Link>
+            </nav>
+        }
     </header>
     )
 }

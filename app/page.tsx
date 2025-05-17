@@ -95,10 +95,10 @@ export default function Home() {
               </div>
           </div>
         </section>
-        <section className="bg-green-600 px-12 py-24 relative overflow-hidden">
+        <section className="bg-green-600 px-12 py-24 lg:py-18 relative overflow-hidden">
           <div className="flex flex-col items-center lg:flex-row lg:justify-evenly lg:items-start gap-6">
             <div className="w-full h-fit max-w-[580px]">
-            <iframe className="relative z-1 w-full h-[60vw] max-h-[440px]" src="https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1072150300771545%2F&show_text=false&width=560&t=0" scrolling="no" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen={true}></iframe>
+              <iframe className="relative z-1 w-full h-[60vw] max-h-[440px]" src="https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1072150300771545%2F&show_text=false&width=560&t=0" scrolling="no" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen={true}></iframe>
             </div>
             <div className="lg:w-1/2 space-y-5 pt-4 relative z-1">
               <h2 className="text-2xl font-bold text-yellow-400 md:text-4xl">Meet Teacher Alia – Your Dedicated Online English Instructor</h2>
