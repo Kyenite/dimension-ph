@@ -23,19 +23,19 @@ export default function Footer() {
                     <div className="ms-2 space-y-4">
                         <div className="flex items-center gap-2">
                             <Facebook size={15} />
-                            <a href="">Facebook</a>
+                            <a href="https://www.facebook.com/profile.php?id=61559330253460">Facebook</a>
                         </div>
                         <div className="flex items-center gap-2">
                             <Instagram size={15} />
-                            <a href="">Instagram</a>
+                            <a href="#">Instagram</a>
                         </div>
                         <div className="flex items-center gap-2">
                             <Twitter size={15} />
-                            <a href="">Twitter</a>
+                            <a href="#">Twitter</a>
                         </div>
                         <div className="flex items-center gap-2">
                             <Linkedin size={15} />
-                            <a href="">Linkedin</a>
+                            <a href="#">Linkedin</a>
                         </div>
                     </div>
                 </div>
