@@ -4,7 +4,6 @@ import { Fredoka } from "next/font/google";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 import CommunityBanner from "@components/CommunityBanner";
-import { Variable } from "lucide-react";
 
 const fredoka = Fredoka({
   subsets: ['latin'],

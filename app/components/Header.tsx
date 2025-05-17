@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Header() {
     return (
@@ -9,11 +10,11 @@ export default function Header() {
                 <h1 className="text-3xl font-bold bg-gradient-to-tr from-green-700 to-lime-400 bg-clip-text text-transparent">Dimension-PH</h1>
             </div>
             <nav className="hidden lg:flex space-x-8">
-                <a href="/" className="text-gray-600 hover:text-green-700 font-medium">Home</a>
-                <a href="#" className="text-gray-600 hover:text-green-700 font-medium">Announcements</a>
-                <a href="/About" className="text-gray-600 hover:text-green-700 font-medium">About Us</a>
-                <a href="#" className="text-gray-600 hover:text-green-700 font-medium">Testimonials</a>
-                <a href="#" className="text-gray-600 hover:text-green-700 font-medium">Contact</a>
+                <Link href="/" className="text-gray-600 hover:text-green-700 font-medium">Home</Link>
+                <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Announcements</Link>
+                <Link href="/About" className="text-gray-600 hover:text-green-700 font-medium">About Us</Link>
+                <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Testimonials</Link>
+                <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Contact</Link>
             </nav>
             <div className="lg:hidden">
                 <button className="text-gray-600 focus:outline-none">

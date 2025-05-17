@@ -21,7 +21,7 @@ export default function About() {
                 <div className="relative text-center space-y-4 mt-10 z-1">
                     <div className="max-w-5xl px-10 mx-auto space-y-4">
                         <h2 className="text-3xl">Our Vision</h2>
-                        <p>At <strong>Dimension-PH Online Tutorial Services</strong>, our vision is to redefine the standards of online education. We envision a future where learning transcends borders, connecting students from diverse backgrounds in a dynamic virtual environment. Through innovative teaching methods, personalized support, and a commitment to excellence, we strive to be at the forefront of educational innovation—making a lasting impact on our students' lives and contributing to a brighter future for generations to come.</p>
+                        <p>At <strong>Dimension-PH Online Tutorial Services</strong>, our vision is to redefine the standards of online education. We envision a future where learning transcends borders, connecting students from diverse backgrounds in a dynamic virtual environment. Through innovative teaching methods, personalized support, and a commitment to excellence, we strive to be at the forefront of educational innovation—making a lasting impact on our students&apos; lives and contributing to a brighter future for generations to come.</p>
                     </div>
                     <div className="max-w-5xl px-10 mx-auto space-y-4">
                         <h2 className="text-3xl">Our Goal</h2>
