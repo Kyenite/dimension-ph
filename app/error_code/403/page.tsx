@@ -15,7 +15,7 @@ export default function UnderDevelopment() {
                             </h1>
                             <hr className="w-[80vw] max-w-4xl mx-auto" />
                             <p className="text-lg max-w-xl mx-auto text-gray-900">
-                                We're currently performing scheduled maintenance to improve your experience. Our team is working hard to bring everything back online as soon as possible.
+                                We&apos;re currently performing scheduled maintenance to improve your experience. Our team is working hard to bring everything back online as soon as possible.
                             </p>
                             <p className="text-sm text-gray-900">
                                 We appreciate your patience and understanding. If you need assistance, feel free to contact us at <span className="text-green-700 font-bold underline">demensionph1@gmail.com</span>.
