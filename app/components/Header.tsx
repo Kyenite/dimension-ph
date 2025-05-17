@@ -11,10 +11,10 @@ export default function Header() {
             </div>
             <nav className="hidden lg:flex space-x-8">
                 <Link href="/" className="text-gray-600 hover:text-green-700 font-medium">Home</Link>
-                <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Announcements</Link>
-                <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">About Us</Link>
-                <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Testimonials</Link>
-                <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Contact</Link>
+                <Link href="/announcement" className="text-gray-600 hover:text-green-700 font-medium">Announcements</Link>
+                <Link href="/about" className="text-gray-600 hover:text-green-700 font-medium">About Us</Link>
+                <Link href="/testimonials" className="text-gray-600 hover:text-green-700 font-medium">Testimonials</Link>
+                <Link href="/contacts" className="text-gray-600 hover:text-green-700 font-medium">Contact</Link>
             </nav>
             <div className="lg:hidden">
                 <button className="text-gray-600 focus:outline-none">
