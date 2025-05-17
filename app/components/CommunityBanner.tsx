@@ -9,7 +9,7 @@ export default function CommunityBanner() {
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4" data-id="element-15">
                         <input type="email" placeholder="Enter your email" className="bg-white px-4 py-3 rounded-md text-gray-800 min-w-[250px] focus:outline-none focus:ring-2 focus:ring-white" data-id="element-16"/>
-                        <button className="bg-gray-200 text-green-700 hover:bg-gray-100 px-6 py-3 rounded-md font-medium" data-id="element-17">Subscribe Now</button>
+                        <button className="bg-green-700 text-white hover:bg-green-800 px-6 py-3 rounded-md font-medium" data-id="element-17">Subscribe Now</button>
                     </div>
                 </div>
             </div>

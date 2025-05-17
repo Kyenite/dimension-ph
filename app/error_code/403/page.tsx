@@ -1,16 +1,17 @@
 import Header from "@components/Header"
+import Footer from "@components/Footer"
 import Image from "next/image"
 
 export default function UnderDevelopment() {
     return (
-        <div className="bg-lime-300 h-[100vh] overflow-hidden">
-            <Header />
-            <main>
+        <>
+        <Header />
+            <main className="bg-gray-100 px-10">
                 <div className="py-28 h-screen">
                     <div className="m-auto flex flex-col gap-4">
                         <Image className="m-auto drop-shadow-lg" src={"/images/error/403.png"} alt={"Maintenance"} width={150} height={150} />
                         <div className="text-center space-y-4">
-                            <h1 className="text-4xl font-bold bg-gradient-to-t from-green-700 to-lime-400 bg-clip-text text-transparent text-shadow-md">
+                            <h1 className="text-2xl lg:text-4xl font-bold bg-gradient-to-t from-green-700 to-lime-400 bg-clip-text text-transparent text-shadow-md">
                                 This Page is Under Development
                             </h1>
                             <hr className="w-[80vw] max-w-4xl mx-auto" />
@@ -24,6 +25,7 @@ export default function UnderDevelopment() {
                     </div>
                 </div>
             </main>
-        </div>
+            <Footer />
+        </>
     )
 }
