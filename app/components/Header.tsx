@@ -12,7 +12,7 @@ export default function Header() {
             <nav className="hidden lg:flex space-x-8">
                 <Link href="/" className="text-gray-600 hover:text-green-700 font-medium">Home</Link>
                 <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Announcements</Link>
-                <Link href="/About" className="text-gray-600 hover:text-green-700 font-medium">About Us</Link>
+                <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">About Us</Link>
                 <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Testimonials</Link>
                 <Link href="#" className="text-gray-600 hover:text-green-700 font-medium">Contact</Link>
             </nav>
