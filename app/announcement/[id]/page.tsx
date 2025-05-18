@@ -6,13 +6,7 @@ import Footer from '@components/Footer';
 
 import { sampleData } from '../data';
 
-interface PageProps {
-  params: {
-    id: string;
-  };
-}
-
-export default function ViewAnnouncement({ params }: PageProps) {
+export default function ViewAnnouncement({ params }: { params: { id: string } }) {
   
   const id = Number(params.id);
   const announcement = sampleData.find(item => item.id === id);
