@@ -1,6 +1,6 @@
 export default function CommunityBanner() {
     return (
-        <section className="bg-gradient-to-r from-green-600 to-lime-500 py-16 text-white" data-id="element-9">
+        <section className="relative z-10 bg-gradient-to-r from-green-600 to-lime-500 py-16 text-white" data-id="element-9">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-id="element-10">
                 <div className="flex flex-col md:flex-row items-center justify-between" data-id="element-11">
                     <div className="mb-8 md:mb-0 md:mr-8 text-center md:text-left" data-id="element-12">

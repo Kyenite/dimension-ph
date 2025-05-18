@@ -11,7 +11,7 @@ export default function Maintenance() {
                 <div className="m-auto flex flex-col gap-4">
                     <Image className="m-auto drop-shadow-lg" src={"/images/error/503.png"} alt={"Maintenance"} width={150} height={150} />
                     <div className="text-center space-y-4">
-                        <h1 className="text-4xl font-bold bg-gradient-to-t from-green-700 to-lime-400 bg-clip-text text-transparent text-shadow-md">
+                        <h1 className="text-2xl lg:text-4xl font-bold bg-gradient-to-t from-green-700 to-lime-400 bg-clip-text text-transparent text-shadow-md">
                             This Page is Under Maintenance
                         </h1>
                         <hr className="w-[80vw] max-w-4xl mx-auto" />

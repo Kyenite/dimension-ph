@@ -110,14 +110,23 @@ export default function Home() {
               <span className="text-xs text-gray-600">Our Third-Party</span>
             </a> 
 
-            {/* Panda like in the bottom right */}
-            <div className="absolute bg-green-800 w-30 h-30 rounded-full -bottom-12 right-18 shadow-lg"></div>
-            <div className="absolute bg-green-800 w-30 h-30 rounded-full bottom-15 -right-12 shadow-lg"></div>
-            <div className="absolute bg-yellow-300 w-50 h-50 rounded-full -bottom-15 -right-15 shadow-lg">
-              <div className="absolute bg-black w-10 h-10 rounded-full top-8 left-18"></div>
-              <div className="absolute bg-black w-10 h-10 rounded-full top-18 left-5"></div>
+            {/* Animate like in the bottom right */}
+            <div className="absolute bg-green-800 w-30 h-30 rounded-full -bottom-12 right-18 shadow-lg z-0"></div>
+              <div className="absolute bg-green-800 w-30 h-30 rounded-full bottom-15 -right-12 shadow-lg z-0"></div>
+              <div className="absolute bg-yellow-300 w-50 h-50 rounded-full -bottom-15 -right-15 shadow-lg z-0">
+                <div className="absolute bg-black w-10 h-10 rounded-full top-8 left-18 z-0"></div>
+                <div className="absolute bg-black w-10 h-10 rounded-full top-18 left-5 z-0"></div>
+              </div>
             </div>
-          </div>
+
+            <div className="absolute z-0 w-40 h-40 border-10 border-green-900 -top-15 -left-10 flex justify-center items-center shadow-lg">
+              <div className="w-20 h-20 bg-yellow-400 shadow-lg"></div>
+            </div>
+
+            {/* Panda placed AFTER the section but BEFORE CommunityBanner */}
+            <div className="absolute z-30 -bottom-3 left-0">
+              <div className="bg-[url('/panda.png')] bg-cover bg-center w-50 h-50 lg:w-60 lg:h-60 mx-auto" />
+            </div>
         </section>
         <CommunityBanner />
       </main>
