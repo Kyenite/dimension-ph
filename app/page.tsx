@@ -45,7 +45,7 @@ export default function Home() {
                               
                           </svg>
                           
-                          <Image className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-1" src={"/images/image1.jpg"} alt="Personnel Image" width={600} height={480} />
+                          <Image className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-1" src={"/images/image.jpg"} alt="Personnel Image" width={600} height={480} />
                       </div>
                   </div>
               </div>
@@ -105,9 +105,9 @@ export default function Home() {
               <p className="text-white font-medium">Get to know Teacher Alia Gaile, one of our experienced ESL educators at Dimension PH. With over four years of teaching experience and a bachelor’s degree in English education, Teacher Aliyah has taught students of all ages—from young children to adults. She uses proven methods like CPR (Contextualized Practice and Review) to make learning effective and enjoyable. Her lessons focus on phonics, grammar, pronunciation, and real-life conversation skills to help learners become confident English speakers. Watch the video to see the heart behind our teaching and what makes Dimension PH a trusted name in online English education.</p>
             </div>
 
-            <a className="absolute bg-yellow-400 rounded-lg shadow-lg w-30 h-20 -top-5 right-10 flex flex-col items-center justify-end py-1" href="#">
+            <a className="absolute bg-yellow-400 rounded-lg shadow-lg w-35 h-23 -top-5 right-10 flex flex-col items-center justify-end p-1" href="#">
               <h6 className={`${fredoka.className} text-3xl text-cyan-600 font-bold`}>51Talk</h6>
-              <span className="text-xs text-gray-600">Our Third-Party</span>
+              <span className="text-xs text-gray-600 text-center">One of our many 3rd Party accounts</span>
             </a> 
 
             {/* Animate like in the bottom right */}
