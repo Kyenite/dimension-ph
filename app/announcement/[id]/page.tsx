@@ -1,13 +1,16 @@
+'use client'
 import { CalendarIcon } from 'lucide-react';
 import { redirect } from 'next/navigation';
+import { useParams } from 'next/navigation';
 
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 
 import { sampleData } from '../data';
 
-export default function ViewAnnouncement({ params }: { params: { id: string } }) {
-  
+export default function ViewAnnouncement() {
+  const params = useParams();
+
   const id = Number(params.id);
   const announcement = sampleData.find(item => item.id === id);
 
