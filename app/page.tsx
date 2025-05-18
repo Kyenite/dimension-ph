@@ -45,7 +45,7 @@ export default function Home() {
                               
                           </svg>
                           
-                          <Image className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-1" src={"/images/image.jpg"} alt="Personnel Image" width={600} height={480} />
+                          <Image className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-1" src={"/images/image-2.jpeg"} alt="Personnel Image" width={600} height={480} />
                       </div>
                   </div>
               </div>
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
             <div className="lg:w-1/2 space-y-5 pt-4 relative z-1">
               <h2 className="text-2xl font-bold text-yellow-400 md:text-4xl">Meet Teacher Alia – Your Dedicated Online English Instructor</h2>
-              <p className="text-white font-medium">Get to know Teacher Alia Gaile, one of our experienced ESL educators at Dimension PH. With over four years of teaching experience and a bachelor’s degree in English education, Teacher Aliyah has taught students of all ages—from young children to adults. She uses proven methods like CPR (Contextualized Practice and Review) to make learning effective and enjoyable. Her lessons focus on phonics, grammar, pronunciation, and real-life conversation skills to help learners become confident English speakers. Watch the video to see the heart behind our teaching and what makes Dimension PH a trusted name in online English education.</p>
+              <p className="text-white lg:text-lg font-medium">Get to know Teacher Alia Gaile, one of our experienced ESL educators at Dimension PH. With over four years of teaching experience and a bachelor’s degree in English education, Teacher Aliyah has taught students of all ages—from young children to adults. She uses proven methods like CPR (Contextualized Practice and Review) to make learning effective and enjoyable. Her lessons focus on phonics, grammar, pronunciation, and real-life conversation skills to help learners become confident English speakers. Watch the video to see the heart behind our teaching and what makes Dimension PH a trusted name in online English education.</p>
             </div>
 
             <a className="absolute bg-yellow-400 rounded-lg shadow-lg w-35 h-23 -top-5 right-10 flex flex-col items-center justify-end p-1" href="#">
@@ -111,11 +111,11 @@ export default function Home() {
             </a> 
 
             {/* Animate like in the bottom right */}
-            <div className="absolute bg-green-800 w-30 h-30 rounded-full -bottom-12 right-18 shadow-lg z-0"></div>
-              <div className="absolute bg-green-800 w-30 h-30 rounded-full bottom-15 -right-12 shadow-lg z-0"></div>
-              <div className="absolute bg-yellow-300 w-50 h-50 rounded-full -bottom-15 -right-15 shadow-lg z-0">
-                <div className="absolute bg-black w-10 h-10 rounded-full top-8 left-18 z-0"></div>
-                <div className="absolute bg-black w-10 h-10 rounded-full top-18 left-5 z-0"></div>
+            <div className="absolute bg-green-800 w-24 h-24 lg:w-30 lg:h-30 rounded-full -bottom-12 right-18 shadow-lg z-0"></div>
+              <div className="absolute bg-green-800 w-24 h-24 lg:w-30 lg:h-30 rounded-full bottom-15 -right-12 shadow-lg z-0"></div>
+              <div className="absolute bg-yellow-300 w-40 h-40 lg:w-50 lg:h-50 rounded-full -bottom-15 -right-15 shadow-lg z-0">
+                <div className="absolute bg-black w-7 h-7 lg:w-10 lg:h-10 rounded-full top-8 left-18 z-0"></div>
+                <div className="absolute bg-black w-7 h-7 lg:w-10 lg:h-10 rounded-full top-18 left-5 z-0"></div>
               </div>
             </div>
 
