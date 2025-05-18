@@ -20,7 +20,7 @@ export default function pageNotFound() {
                             </p>
                             <p className="text-sm text-gray-900">
                                 We appreciate your patience and understanding. If you need help or were expecting something here, feel free to reach out at <a className="text-green-700 font-bold underline" 
-                                href="mailto:demensionph1@gmail.com">demensionph1@gmail.com</a>.
+                                href="mailto:dimensionph1@gmail.com@gmail.com">dimensionph1@gmail.com</a>.
                             </p>
                         </div>
                     </div>

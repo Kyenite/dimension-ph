@@ -19,7 +19,7 @@ export default function Maintenance() {
                             We&apos;re currently performing scheduled maintenance to improve your experience. Our team is working hard to bring everything back online as soon as possible.
                         </p>
                         <p className="text-sm text-gray-900">
-                            We appreciate your patience and understanding. If you need assistance, feel free to contact us at <span className="text-green-700 font-bold underline">demensionph1@gmail.com</span>.
+                            We appreciate your patience and understanding. If you need assistance, feel free to contact us at <a className="text-green-700 font-bold underline" href="mailto:dimensionph1@gmail.com">dimensionph1@gmail.com</a>.
                         </p>
                     </div>
                 </div>
