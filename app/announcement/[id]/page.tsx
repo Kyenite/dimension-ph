@@ -6,9 +6,7 @@ import Footer from '@components/Footer';
 
 import { sampleData } from '../data';
 
-type Params = { params: { id: string } };
-
-export default function ViewAnnouncement({ params }: Params) {
+export default function ViewAnnouncement({ params }: { params: { id: string } }) {
   
   const id = Number(params.id);
   const announcement = sampleData.find(item => item.id === id);
