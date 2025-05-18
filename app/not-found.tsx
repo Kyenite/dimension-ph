@@ -16,7 +16,7 @@ export default function pageNotFound() {
                             </h1>
                             <hr className="w-[80vw] max-w-4xl mx-auto" />
                             <p className="text-lg max-w-xl mx-auto text-gray-900">
-                                The page you're looking for doesn't exist or is still under development. We may have moved the content or it's not ready just yet.
+                                The page you&apos;re looking for doesn&apos;t exist or is still under development. We may have moved the content or it&apos;s not ready just yet.
                             </p>
                             <p className="text-sm text-gray-900">
                                 We appreciate your patience and understanding. If you need help or were expecting something here, feel free to reach out at <a className="text-green-700 font-bold underline" 
